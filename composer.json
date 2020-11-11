@@ -22,5 +22,15 @@
         "files" : [
             "src/functions.php"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vati\\SMS\\SMSServiceProvider"
+            ],
+            "aliases": {
+                "FCM": "Vati\\SMS\\SMSFacade"
+            }
+        }
     }
 }

@@ -28,7 +28,7 @@ class SMSServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('sms', function () {
-            return $this->app->make('Vati\Sms\Sms');
+            return $this->app->make('Vati\SMS\SMS');
         });
     }
 }

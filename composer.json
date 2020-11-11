@@ -1,5 +1,5 @@
 {
-    "name": "vati/sms",
+    "name": "vati/geosms",
     "description": "Georgian SMS services",
     "type": "library",
     "license": "MIT",

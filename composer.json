@@ -1,0 +1,25 @@
+{
+    "name": "vati/sms",
+    "description": "Georgian SMS services",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vati Child",
+            "email": "vatia0@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vati\\SMS\\": "src"
+        },
+        
+        "files" : [
+            "src/functions.php"
+        ]
+    }
+}

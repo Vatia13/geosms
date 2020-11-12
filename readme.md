@@ -50,3 +50,6 @@ config/sms.php configuration file
         ]
     ]
 ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

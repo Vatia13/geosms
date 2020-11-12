@@ -52,7 +52,7 @@ config/sms.php configuration file
 ```
 ## Example
 ```bash
-     sms()->to(555000000)->text("Have a nice day!")->send();
+sms()->to(555000000)->text("Have a nice day!")->send();
 ```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
